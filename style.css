@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito'
+}
+
+body {
+    background-image: url(abstract3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    box-shadow: 8px 8px rgba(42, 57, 42, 0.6);
+    border-radius: 25px;
+    margin: 100px 20%;
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Nunito';
+    font-size: 50px;
+    margin-top: 100px;
+    color: rgba(29, 39, 29, 0.6);
+}
+
+h2 {
+    margin-top: 5px;
+    color: rgba(29, 39, 29, 0.6);
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgba(29, 39, 29, 0.6);
+}
+
+h4 {
+    margin-top: -25px;
+    font-size: 20px;
+    color: rgba(29, 39, 29, 0.6);
+}
+
+h5 {
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgba(29, 39, 29, 0.6);
+}
+
+button {
+    height: 30px;
+    width: 80px;
+}
+
+input {
+    margin-right: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
